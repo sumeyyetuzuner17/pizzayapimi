@@ -1,5 +1,15 @@
-.App{
+* {
+  background-color: white;
+}
 
-width: 800px;
+.app {
+  width: 850px;
+  background-color: rgb(212, 209, 209);
+  padding: 7px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.kendinYap {
+  text-align: center;
 }

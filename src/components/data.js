@@ -3,7 +3,7 @@ export const data=[
         id:1,
         isim:"Margarita",
         fiyat:"100 TL" ,
-        icindekiler:"Mozarella peyniri,pizza sos",
+        icindekiler:"Mozarella peyniri,pizza sos,roka",
         boyut: "orta",
         url:"https://cdn.dpeurasia.com/dms/images/product/TR_PIZZA_434x404.jpg"
     },
@@ -13,7 +13,7 @@ export const data=[
         fiyat:"120 TL" ,
         icindekiler:"Sucuk,Mozarella peyniri,pizza sos",
         boyut: "orta",
-        url:"https://fe.dominos.com.tr/api/medium/ProductOsg/Global/PIZZA/NULL/434x404/TR"
+        url:"https://cdn.dpeurasia.com/dms/images/product/TR__SUCUK_434x404.jpg"
     },
     {
         id:3,
@@ -21,7 +21,7 @@ export const data=[
         fiyat:"150 TL" ,
         icindekiler:"Jambon,sucuk,sosis,mozarella peyniri,pizza sos",
         boyut: "orta",
-        url:"https://fe.dominos.com.tr/api/medium/ProductOsg/Global/PIZZA/NULL/434x404/TR"
+        url:"https://cdn.dpeurasia.com/dms/images/product/TR_DOPDOLU_434x404.jpg"
     },
     {
         id:4,
@@ -29,7 +29,7 @@ export const data=[
         fiyat:"130 TL" ,
         icindekiler:"Mantar,siyah zeytin,mozarella peyniri,pizza sos",
         boyut: "orta",
-        url:"https://fe.dominos.com.tr/api/medium/ProductOsg/Global/PIZZA/NULL/434x404/TR"
+        url:"https://cdn.dpeurasia.com/dms/images/product/TR_PIZVX_434x404.jpg"
     },
     {
         id:5,
@@ -37,7 +37,7 @@ export const data=[
         fiyat:"130 TL" ,
         icindekiler:"Sucuk,mısır,zeytin,mozarella peyniri,pizza sos",
         boyut: "orta",
-        url:"https://fe.dominos.com.tr/api/medium/ProductOsg/Global/PIZZA/NULL/434x404/TR"
+        url:"https://cdn.dpeurasia.com/dms/images/product/TR__PSOCIAL_434x404.jpg"
     },
     {
         id:6,
@@ -45,7 +45,7 @@ export const data=[
         fiyat:"110 TL" ,
         icindekiler:"Sosis,mısır,mozarella peyniri,pizza sos",
         boyut: "orta",
-        url:"https://fe.dominos.com.tr/api/medium/ProductOsg/Global/PIZZA/NULL/434x404/TR"
+        url:"https://cdn.dpeurasia.com/dms/images/product/TR__SOSMIS_434x404.jpg"
     },
     {
         id:7,
@@ -53,7 +53,7 @@ export const data=[
         fiyat:"140 TL" ,
         icindekiler:"Beyaz peynir,mozarella peyniri,pizza sos",
         boyut: "orta",
-        url:"https://fe.dominos.com.tr/api/medium/ProductOsg/Global/PIZZA/NULL/434x404/TR"
+        url:"https://cdn.dpeurasia.com/dms/images/product/TR__DR_434x404.jpg"
     },
     {
         id:8,
@@ -61,6 +61,6 @@ export const data=[
         fiyat:"125 TL" ,
         icindekiler:"Mısır,mozarella peyniri,pizza sos",
         boyut: "orta",
-        url:"https://fe.dominos.com.tr/api/medium/ProductOsg/Global/PIZZA/NULL/434x404/TR"
+        url:"https://cdn.dpeurasia.com/dms/images/product/TR_PIZMX_434x404.jpg"
     }   
 ]

@@ -1,5 +1,26 @@
-.header{
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 15px;
+}
 
-display: flex;
-justify-content: space-between;
+.header p {
+  color: black;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+}
+
+.bigImg {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  height: 300px;
+  margin: auto;
+  border-radius: 5px;
 }

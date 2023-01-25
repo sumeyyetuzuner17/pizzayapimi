@@ -1,9 +1,10 @@
 import "./App.css";
-import "../index.css";
+// import "../index.css";
 // import Button from "./button/button";
 import Header from "./header/header";
-import Buttonilk from "./buttonilk/buttonilk";
-import Hazirpizzalar from "./hazirpizzalar/hazirpizzalar";
+import Button from "./button/button";
+import PizzaAll from "./pizzaAll/pizzaAll";
+import IkinciSayfa from "./ikinciSayfa/ikinciSayfa";
 
 function App() {
   return (
@@ -13,10 +14,13 @@ function App() {
         <Button text="çankırı" action={() => console.log("çankırı")} />
       
       </div> */}
-      <div>
+      <div className="app">
         <Header text="BİLMEMNE PİZZA" />
-        <Buttonilk text="PİZZANI KENDİN YAP"/>
-        <Hazirpizzalar/>
+        <div className="kendinYap">
+          <Button text="PİZZANI KENDİN YAP" type="submit" />
+        </div>
+        <PizzaAll />
+        <IkinciSayfa/>
       </div>
     </>
   );

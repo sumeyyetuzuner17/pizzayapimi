@@ -1,6 +1,6 @@
 import React from "react";
 import "./header.css";
-import Buttonilk from "../buttonilk/buttonilk";
+import Button from "../button/button";
 
 const header = (props) => {
   const logourl =
@@ -11,14 +11,16 @@ const header = (props) => {
   return (
     <>
       <div className="header">
-        <img src={logourl} alt="logo" />
+        <img src={logourl} alt="logo" className="logo" />
         <div>
           <p>{props.text}</p>
         </div>
-        <Buttonilk text="Bize Ulaşın" />
+        <div>
+          <Button text="Bize Ulaşın" />
+        </div>
       </div>
       <div>
-        <img src={bigImg} alt="bigImg" />
+        <img src={bigImg} alt="bigImg" className="bigImg" />
       </div>
     </>
   );
