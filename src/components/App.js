@@ -15,12 +15,11 @@ function App() {
       
       </div> */}
       <div className="app">
-        <Header text="BİLMEMNE PİZZA" />
-        <div className="kendinYap">
-          <Button text="PİZZANI KENDİN YAP" type="submit" />
-        </div>
+        <Header text="BİLMEMNE PİZZA" />  
         <PizzaAll />
         <IkinciSayfa/>
+        
+
       </div>
     </>
   );

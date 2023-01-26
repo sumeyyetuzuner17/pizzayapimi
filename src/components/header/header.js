@@ -16,9 +16,10 @@ const header = (props) => {
           <p>{props.text}</p>
         </div>
         <div>
-          <Button text="Bize Ulaşın" />
+          <Button text="İletişim" />
         </div>
       </div>
+
       <div>
         <img src={bigImg} alt="bigImg" className="bigImg" />
       </div>

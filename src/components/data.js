@@ -47,20 +47,20 @@ export const data=[
         boyut: "orta",
         url:"https://cdn.dpeurasia.com/dms/images/product/TR__SOSMIS_434x404.jpg"
     },
-    {
-        id:7,
-        isim:"Fit Pizza",
-        fiyat:"140 TL" ,
-        icindekiler:"Beyaz peynir,mozarella peyniri,pizza sos",
-        boyut: "orta",
-        url:"https://cdn.dpeurasia.com/dms/images/product/TR__DR_434x404.jpg"
-    },
-    {
-        id:8,
-        isim:"İtalyan Pizza",
-        fiyat:"125 TL" ,
-        icindekiler:"Mısır,mozarella peyniri,pizza sos",
-        boyut: "orta",
-        url:"https://cdn.dpeurasia.com/dms/images/product/TR_PIZMX_434x404.jpg"
-    }   
+    // {
+    //     id:7,
+    //     isim:"Fit Pizza",
+    //     fiyat:"140 TL" ,
+    //     icindekiler:"Beyaz peynir,mozarella peyniri,pizza sos",
+    //     boyut: "orta",
+    //     url:"https://cdn.dpeurasia.com/dms/images/product/TR__DR_434x404.jpg"
+    // },
+    // {
+    //     id:8,
+    //     isim:"İtalyan Pizza",
+    //     fiyat:"125 TL" ,
+    //     icindekiler:"Mısır,mozarella peyniri,pizza sos",
+    //     boyut: "orta",
+    //     url:"https://cdn.dpeurasia.com/dms/images/product/TR_PIZMX_434x404.jpg"
+    // }   
 ]

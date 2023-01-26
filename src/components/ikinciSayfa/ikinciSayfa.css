@@ -1,0 +1,31 @@
+.pizzaBoyutu {
+  width: 50%;
+  
+}
+.hamurKalinligi {
+}
+.malzemeler {
+}
+
+.radio {
+ 
+
+}
+
+.pizzaBoyutu p{
+    font-weight: bold;
+    
+}
+
+.hamurKalinligi p{
+    font-weight: bold;
+}
+
+.icecek p{
+    font-weight: bold;
+}
+.kendinYap {
+    text-align: center;
+   display: flex;
+   justify-content: end;
+  }
