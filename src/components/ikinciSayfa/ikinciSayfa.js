@@ -1,16 +1,30 @@
-import React from "react";
+import React, { useState } from "react";
 import "./ikinciSayfa.css";
 import { dataMalzemeler } from "../dataMalzemeler";
 import Checkbox from "../checkbox/checkbox";
 import Button from "../button/button";
 
 const IkinciSayfa = () => {
+  const [ingredients, setIngredients] = useState(
+    dataMalzemeler.map((malzeme) => {
+      return { ...malzeme, isChecked: false };
+    })
+  );
 
-
+  const toggleIngredient = (isim) => {
+    const newIngredients = ingredients.map((ingredient) => {
+      if (ingredient.isim === isim) {
+        return { ...ingredient, isChecked: !ingredient.isChecked };
+      } else {
+        return { ...ingredient };
+      }
+    });
+    setIngredients(newIngredients);
+  };
 
   return (
     <>
-    <p>PİZZANI KENDİN YAP</p>
+      <p>PİZZANI KENDİN YAP</p>
       <div className="radio">
         <div className="pizzaBoyutu">
           <p>Pizza Boyutu</p>
@@ -92,20 +106,17 @@ const IkinciSayfa = () => {
       <div className="malzemeler">
         <form>
           <p>Malzemeler</p>
-          <Checkbox deger="Mozarella" />
-          <Checkbox deger="Mısır" />
-          <Checkbox deger="Mantar" />
-          <Checkbox deger="Zeytin" />
-          <Checkbox deger="Sucuk" />
-          <Checkbox deger="Sosis" />
-          <Checkbox deger="Jambon" />
-          <Checkbox deger="Füme" />
+          {ingredients.map((ingredient) => {
+            return (
+              <Checkbox {...ingredient} toggleIngredient={toggleIngredient} />
+            );
+          })}
         </form>
       </div>
       <div className="kendinYap">
-          <Button text="Tutar" type="submit"  />
-          <Button text="Siparişi Oluştur" type="submit" />
-        </div>
+        <Button text="Tutar" type="submit" />
+        <Button text="Siparişi Oluştur" type="submit" />
+      </div>
     </>
   );
 };

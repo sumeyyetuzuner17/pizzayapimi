@@ -20,11 +20,6 @@ export const dataMalzemeler = [
     fiyat: "20TL",
   },
   {
-    id: 5,
-    isim: "Yeşil Zeytin",
-    fiyat: "20TL",
-  },
-  {
     id: 6,
     isim: "Sucuk",
     fiyat: "45 TL",
